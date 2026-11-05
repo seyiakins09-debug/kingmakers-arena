@@ -1,0 +1,4102 @@
+[
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 1,
+    "title": "Irrigation Crisis",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Irrigation Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 2,
+    "title": "Seed Shortage",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Seed Shortage** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 3,
+    "title": "Agricultural Equipment",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Agricultural Equipment** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 4,
+    "title": "Fertilizer Crisis",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Fertilizer Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 5,
+    "title": "Royal Food Storage",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Royal Food Storage** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 6,
+    "title": "Farming Labor Shortage",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Farming Labor Shortage** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 7,
+    "title": "Falling Market Prices",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Falling Market Prices** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 8,
+    "title": "Royal Export Contract",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Royal Export Contract** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 9,
+    "title": "Famine Warning",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Famine Warning** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 1,
+    "set_name": "Royal Farmland & Agriculture",
+    "challenge_number": 10,
+    "title": "Royal Harvest",
+    "scenario": "Your kingdom’s prosperity depends on a resilient food system. A sudden crisis threatens production, prices, and the royal treasury. **Royal Harvest** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 1,
+    "title": "The Treasury Collapse",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Treasury Collapse** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 2,
+    "title": "Royal Debt Emergency",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **Royal Debt Emergency** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 3,
+    "title": "The Tax Revenue Crisis",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Tax Revenue Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 4,
+    "title": "The Royal Investment Trap",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Royal Investment Trap** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 5,
+    "title": "The Bank Failure",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Bank Failure** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 6,
+    "title": "The Currency Crisis",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Currency Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 7,
+    "title": "The Royal Business Collapse",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Royal Business Collapse** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 8,
+    "title": "The Emergency Budget",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Emergency Budget** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 9,
+    "title": "The Financial Intelligence Test",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The Financial Intelligence Test** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 2,
+    "set_name": "Royal Treasury & Financial Crisis",
+    "challenge_number": 10,
+    "title": "The King’s Final Treasury Decision",
+    "scenario": "Revenue is falling while obligations are rising. Every decision affects the kingdom’s solvency and public confidence. **The King’s Final Treasury Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 1,
+    "title": "Royal Textile Factory",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **Royal Textile Factory** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 2,
+    "title": "Gold Mine Investment",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **Gold Mine Investment** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 3,
+    "title": "Royal Market Expansion",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **Royal Market Expansion** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 4,
+    "title": "The Luxury Hotel Proposal",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **The Luxury Hotel Proposal** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 5,
+    "title": "Technology Startup Investment",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **Technology Startup Investment** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 6,
+    "title": "The Merchant Partnership",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **The Merchant Partnership** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 7,
+    "title": "The Failed Franchise",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **The Failed Franchise** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 8,
+    "title": "The Royal Shipping Company",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **The Royal Shipping Company** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 9,
+    "title": "Foreign Investor Offer",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **Foreign Investor Offer** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 3,
+    "set_name": "Kingdom Business & Investment",
+    "challenge_number": 10,
+    "title": "The Crown’s Portfolio",
+    "scenario": "Royal investors are competing for limited capital. Choose ventures carefully: growth can strengthen the crown or drain its reserves. **The Crown’s Portfolio** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 1,
+    "title": "Royal Highway Project",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Royal Highway Project** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 2,
+    "title": "Bridge Construction",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Bridge Construction** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 3,
+    "title": "Power Grid Expansion",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Power Grid Expansion** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 4,
+    "title": "Water Supply Project",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Water Supply Project** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 5,
+    "title": "Royal Hospital",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Royal Hospital** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 6,
+    "title": "School Development",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **School Development** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 7,
+    "title": "Port Modernization",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Port Modernization** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 8,
+    "title": "Railway Expansion",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Railway Expansion** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 9,
+    "title": "Smart City Proposal",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **Smart City Proposal** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 4,
+    "set_name": "Royal Infrastructure & Development",
+    "challenge_number": 10,
+    "title": "The Capital’s Future",
+    "scenario": "The kingdom needs essential infrastructure, but every project competes for treasury funds and must deliver lasting value. **The Capital’s Future** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 1,
+    "title": "Grain Reserve Emergency",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Grain Reserve Emergency** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 2,
+    "title": "Drought Across the Kingdom",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Drought Across the Kingdom** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 3,
+    "title": "Food Price Explosion",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Food Price Explosion** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 4,
+    "title": "Relief Convoy Decision",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Relief Convoy Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 5,
+    "title": "Livestock Crisis",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Livestock Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 6,
+    "title": "Import or Produce?",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Import or Produce?** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 7,
+    "title": "Food Rationing",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Food Rationing** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 8,
+    "title": "The Grain Merchant",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **The Grain Merchant** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 9,
+    "title": "Emergency Kitchens",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **Emergency Kitchens** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 5,
+    "set_name": "Food Security & Famine",
+    "challenge_number": 10,
+    "title": "The Kingdom’s Last Harvest",
+    "scenario": "Harvests and supply chains are under pressure. Your choices determine whether citizens are fed and the treasury survives. **The Kingdom’s Last Harvest** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 1,
+    "title": "Border Trade Dispute",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Border Trade Dispute** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 2,
+    "title": "Trade Route Closure",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Trade Route Closure** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 3,
+    "title": "Export Opportunity",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Export Opportunity** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 4,
+    "title": "Smuggling Intelligence",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Smuggling Intelligence** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 5,
+    "title": "Foreign Tariff Shock",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Foreign Tariff Shock** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 6,
+    "title": "Merchant Fleet Deal",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Merchant Fleet Deal** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 7,
+    "title": "Trade Agreement",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Trade Agreement** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 8,
+    "title": "Rare Commodity Auction",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Rare Commodity Auction** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 9,
+    "title": "Market Manipulation",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **Market Manipulation** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 6,
+    "set_name": "Kingdom Trade & Economic Intelligence",
+    "challenge_number": 10,
+    "title": "The Royal Trade Strategy",
+    "scenario": "Trade routes, tariffs, and merchant intelligence shape the kingdom’s wealth. One strategic decision can alter the balance. **The Royal Trade Strategy** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 1,
+    "title": "Flood in the Lowlands",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Flood in the Lowlands** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 2,
+    "title": "Earthquake Response",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Earthquake Response** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 3,
+    "title": "Royal Palace Fire",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Royal Palace Fire** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 4,
+    "title": "Disease Outbreak",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Disease Outbreak** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 5,
+    "title": "Dam Failure Warning",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Dam Failure Warning** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 6,
+    "title": "Storm Damage",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Storm Damage** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 7,
+    "title": "Emergency Shelter Crisis",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Emergency Shelter Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 8,
+    "title": "Rescue Fleet Decision",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Rescue Fleet Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 9,
+    "title": "Rebuilding the Province",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **Rebuilding the Province** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 7,
+    "set_name": "Royal Disaster & Emergency Management",
+    "challenge_number": 10,
+    "title": "The Disaster Recovery Fund",
+    "scenario": "Disaster has struck or is imminent. Protect lives and assets while balancing immediate relief against long-term recovery. **The Disaster Recovery Fund** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 1,
+    "title": "Border Threat",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Border Threat** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 2,
+    "title": "Military Supply Shortage",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Military Supply Shortage** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 3,
+    "title": "Fortress Upgrade",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Fortress Upgrade** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 4,
+    "title": "Army Training Crisis",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Army Training Crisis** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 5,
+    "title": "Intelligence Report",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Intelligence Report** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 6,
+    "title": "Defensive Alliance",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Defensive Alliance** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 7,
+    "title": "War Chest Decision",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **War Chest Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 8,
+    "title": "Protect the Royal Route",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Protect the Royal Route** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 9,
+    "title": "The Enemy’s Ultimatum",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **The Enemy’s Ultimatum** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 8,
+    "set_name": "Military Preparation & War Strategy",
+    "challenge_number": 10,
+    "title": "Prepare the Kingdom",
+    "scenario": "Threats are growing at the borders. Military readiness costs money, and poor preparation can expose the kingdom. **Prepare the Kingdom** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 1,
+    "title": "Enemy Advance",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Enemy Advance** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 2,
+    "title": "Siege of the Capital",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Siege of the Capital** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 3,
+    "title": "Supply Line Ambush",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Supply Line Ambush** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 4,
+    "title": "War Negotiation",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **War Negotiation** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 5,
+    "title": "Battlefield Reinforcement",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Battlefield Reinforcement** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 6,
+    "title": "Civilian Evacuation",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Civilian Evacuation** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 7,
+    "title": "Captured Province",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Captured Province** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 8,
+    "title": "Peace Offer",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Peace Offer** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 9,
+    "title": "Final Offensive",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Final Offensive** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 9,
+    "set_name": "The Kingdom at War",
+    "challenge_number": 10,
+    "title": "Victory or Survival",
+    "scenario": "The kingdom is at war. Every financial and strategic choice affects survival, supply, morale, and the possibility of peace. **Victory or Survival** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 1,
+    "title": "The Crown’s Final Audit",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The Crown’s Final Audit** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 2,
+    "title": "Three Kingdoms Investment",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **Three Kingdoms Investment** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 3,
+    "title": "Treasury Under Pressure",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **Treasury Under Pressure** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 4,
+    "title": "The Royal Consortium",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The Royal Consortium** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 5,
+    "title": "National Debt Decision",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **National Debt Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 6,
+    "title": "The Last Great Trade",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The Last Great Trade** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 7,
+    "title": "Rebuild or Expand",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **Rebuild or Expand** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 190000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 430000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 8,
+    "title": "The Crown’s Hidden Risk",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The Crown’s Hidden Risk** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 105000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 215000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 75000000,
+        "quality": "Major Mistake"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 9,
+    "title": "The People’s Mandate",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The People’s Mandate** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 120000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 240000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 160000000,
+        "quality": "Acceptable"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  },
+  {
+    "set_number": 10,
+    "set_name": "Final Royal Financial Challenge",
+    "challenge_number": 10,
+    "title": "The Final Royal Decision",
+    "scenario": "This is the final royal test. The kingdom’s accumulated wealth and future depend on disciplined, intelligent decisions. **The Final Royal Decision** now demands an urgent royal decision. Your advisers present four approaches. Choose one before the treasury window closes. Other players cannot see your decision until the Royal Host reveals the round.",
+    "options": [
+      {
+        "key": "A",
+        "name": "Measured Royal Response",
+        "description": "A balanced plan that protects essential operations and limits exposure.",
+        "cost": 25000000,
+        "revenue": 90000000,
+        "quality": "Good"
+      },
+      {
+        "key": "B",
+        "name": "Strategic Crown Investment",
+        "description": "A larger coordinated investment designed to produce stronger long-term returns.",
+        "cost": 60000000,
+        "revenue": 265000000,
+        "quality": "Excellent"
+      },
+      {
+        "key": "C",
+        "name": "High-Stakes Royal Expansion",
+        "description": "An aggressive move with significant upside but serious hidden execution risk.",
+        "cost": 120000000,
+        "revenue": 330000000,
+        "quality": "Good"
+      },
+      {
+        "key": "D",
+        "name": "Preserve the Treasury",
+        "description": "Pause spending, retain cash, and avoid immediate financial exposure.",
+        "cost": 0,
+        "revenue": 0,
+        "quality": "Acceptable"
+      }
+    ]
+  }
+]
