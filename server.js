@@ -96,13 +96,19 @@ app.get('/api/game',auth,async(req,res)=>{
   current={index:s.current_challenge,set_number:c.set_number,set_name:c.set_name,challenge_number:c.challenge_number,title:c.title,scenario:c.scenario,
     options:c.options.map(o=>({key:o.key,name:o.name,description:o.description,cost:o.cost}))};
  }
- let player=null, submitted=null;
+ let player=null, submitted=null, revealed_details=[];
  if(req.user.role==='player'){
   player=await playerSafe(req.user.id);
   const sub=await pool.query('SELECT option_key FROM submissions WHERE player_id=$1 AND challenge_index=$2',[req.user.id,s.current_challenge]);
   submitted=sub.rowCount?sub.rows[0].option_key:null;
  }
- res.json({state:s,current,player,submitted,leaderboard,challenge_count:challenges.length});
+ // Keep choices secret until the host explicitly reveals the challenge.
+ if(s.revealed || s.results_approved){
+  const allSubs=(await pool.query('SELECT p.name,sub.option_key,sub.submitted_at FROM submissions sub JOIN players p ON p.id=sub.player_id WHERE sub.challenge_index=$1 AND p.approved=true ORDER BY p.name',[s.current_challenge])).rows;
+  const ch=challenges[s.current_challenge];
+  revealed_details=allSubs.map(row=>{const opt=ch.options.find(o=>o.key===row.option_key);return opt?{name:row.name,option_key:opt.key,option_name:opt.name,cost:opt.cost,revenue:opt.revenue,net:opt.revenue-opt.cost,quality:opt.quality,submitted_at:row.submitted_at}:null;}).filter(Boolean);
+ }
+ res.json({state:s,current,player,submitted,leaderboard,revealed_details,challenge_count:challenges.length});
 });
 app.get('/api/host/pending',auth,host,async(req,res)=>{
  const q=await pool.query('SELECT id,name,created_at FROM players WHERE approved=false ORDER BY created_at');
