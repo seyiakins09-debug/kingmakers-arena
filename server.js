@@ -52,6 +52,17 @@ function marketFor(index){return MARKET_EVENTS[(index*7+Math.floor(Math.random()
 function mergeStats(base,add){for(const [k,v] of Object.entries(add||{}))base[k]=(Number(base[k])||0)+Number(v||0);return base;}
 function phaseById(type,id){return (PHASES[type]||[]).find(x=>x.id===id);}
 
+const ASSET_LABELS={food_reserve:'Food Reserve',infrastructure:'Infrastructure',stability:'Stability',trade_power:'Trade Power',military_readiness:'Military Readiness',insurance:'Insurance'};
+const CRISIS_TEMPLATES=[
+ {id:'famine',name:'Famine Across the Kingdom',description:'Drought and crop failure threaten food supplies. Secure food and keep the population stable.',requirements:{food_reserve:20,stability:8},unit_prices:{food_reserve:10000000,stability:12000000},treasury_fee:0,success_reward:45000000,xp_reward:2500,crown_reward:60,failure_loss:30000000,failure_xp:-2500,failure_crown:-50,asset_damage:{stability:3}},
+ {id:'infrastructure',name:'Royal Infrastructure Failure',description:'A vital bridge and water system have failed. Repair the kingdom’s critical infrastructure before trade collapses.',requirements:{infrastructure:22,stability:5},unit_prices:{infrastructure:15000000,stability:12000000},treasury_fee:10000000,success_reward:55000000,xp_reward:3000,crown_reward:70,failure_loss:40000000,failure_xp:-3000,failure_crown:-60,asset_damage:{trade_power:3}},
+ {id:'trade_blockade',name:'Trade Route Blockade',description:'A blockade has interrupted imports and exports. Restore commercial access and protect the kingdom’s stability.',requirements:{trade_power:18,insurance:6,military_readiness:4},unit_prices:{trade_power:12000000,insurance:9000000,military_readiness:15000000},treasury_fee:5000000,success_reward:50000000,xp_reward:2800,crown_reward:65,failure_loss:35000000,failure_xp:-2800,failure_crown:-55,asset_damage:{trade_power:4,stability:2}},
+ {id:'epidemic',name:'Royal Epidemic',description:'An epidemic is spreading. The kingdom needs stable services, infrastructure, and insurance to protect citizens.',requirements:{stability:18,infrastructure:10,insurance:8},unit_prices:{stability:12000000,infrastructure:15000000,insurance:9000000},treasury_fee:8000000,success_reward:40000000,xp_reward:2600,crown_reward:60,failure_loss:45000000,failure_xp:-3500,failure_crown:-70,asset_damage:{stability:5,food_reserve:2}},
+ {id:'enemy_invasion',name:'Enemy Invasion',description:'An enemy force approaches the borders. Prepare defenses and protect the kingdom’s stability.',requirements:{military_readiness:20,infrastructure:8,stability:8},unit_prices:{military_readiness:18000000,infrastructure:15000000,stability:12000000},treasury_fee:15000000,success_reward:70000000,xp_reward:3500,crown_reward:90,failure_loss:60000000,failure_xp:-4500,failure_crown:-90,asset_damage:{military_readiness:5,stability:4}}
+];
+function crisisTemplate(id){return CRISIS_TEMPLATES.find(x=>x.id===id);}
+function crisisDue(challenge){return !!challenge && [3,6,9].includes(Number(challenge.challenge_number));}
+
 
 async function init(){
  await pool.query(`
@@ -74,6 +85,9 @@ async function init(){
  ALTER TABLE game_state ADD COLUMN IF NOT EXISTS current_set INTEGER NOT NULL DEFAULT 1;
  ALTER TABLE game_state ADD COLUMN IF NOT EXISTS set_started BOOLEAN NOT NULL DEFAULT false;
  ALTER TABLE game_state ADD COLUMN IF NOT EXISTS market_event JSONB NOT NULL DEFAULT '{}'::jsonb;
+ ALTER TABLE game_state ADD COLUMN IF NOT EXISTS current_crisis JSONB NOT NULL DEFAULT '{}'::jsonb;
+ ALTER TABLE game_state ADD COLUMN IF NOT EXISTS crisis_active BOOLEAN NOT NULL DEFAULT false;
+ ALTER TABLE game_state ADD COLUMN IF NOT EXISTS crisis_approved BOOLEAN NOT NULL DEFAULT false;
  INSERT INTO game_state(id) VALUES(1) ON CONFLICT DO NOTHING;
  CREATE TABLE IF NOT EXISTS submissions(
   id SERIAL PRIMARY KEY, player_id INTEGER REFERENCES players(id) ON DELETE CASCADE,
@@ -84,6 +98,8 @@ async function init(){
  ALTER TABLE submissions ADD COLUMN IF NOT EXISTS decision_data JSONB NOT NULL DEFAULT '{}'::jsonb;
  ALTER TABLE submissions ADD COLUMN IF NOT EXISTS intelligence_cost BIGINT NOT NULL DEFAULT 0;
  CREATE TABLE IF NOT EXISTS intelligence_purchases(id SERIAL PRIMARY KEY,player_id INTEGER REFERENCES players(id) ON DELETE CASCADE,challenge_index INTEGER NOT NULL,cost BIGINT NOT NULL,tier INTEGER NOT NULL,created_at TIMESTAMPTZ DEFAULT NOW(),UNIQUE(player_id,challenge_index));
+ CREATE TABLE IF NOT EXISTS crisis_submissions(id SERIAL PRIMARY KEY,player_id INTEGER REFERENCES players(id) ON DELETE CASCADE,challenge_index INTEGER NOT NULL,crisis_id TEXT NOT NULL,mode TEXT NOT NULL,submitted_at TIMESTAMPTZ DEFAULT NOW(),UNIQUE(player_id,challenge_index));
+ CREATE TABLE IF NOT EXISTS crisis_results(id SERIAL PRIMARY KEY,player_id INTEGER REFERENCES players(id) ON DELETE CASCADE,challenge_index INTEGER NOT NULL,crisis_id TEXT NOT NULL,success BOOLEAN NOT NULL,assets_used JSONB NOT NULL DEFAULT '{}'::jsonb,assets_purchased JSONB NOT NULL DEFAULT '{}'::jsonb,purchase_cost BIGINT NOT NULL DEFAULT 0,treasury_delta BIGINT NOT NULL DEFAULT 0,xp_delta INTEGER NOT NULL DEFAULT 0,crown_delta INTEGER NOT NULL DEFAULT 0,balance_after BIGINT NOT NULL,created_at TIMESTAMPTZ DEFAULT NOW(),UNIQUE(player_id,challenge_index));
  CREATE TABLE IF NOT EXISTS results(
   id SERIAL PRIMARY KEY, player_id INTEGER REFERENCES players(id) ON DELETE CASCADE,
   challenge_index INTEGER NOT NULL, option_key TEXT NOT NULL, cost BIGINT NOT NULL,
@@ -150,7 +166,8 @@ app.get('/api/game',auth,async(req,res)=>{
   const ch=challenges[s.current_challenge];
   revealed_details=allSubs.map(row=>{const opt=ch.options.find(o=>o.key===row.option_key);return opt?{name:row.name,option_key:opt.key,option_name:opt.name,cost:opt.cost,revenue:opt.revenue,net:opt.revenue-opt.cost,quality:opt.quality,submitted_at:row.submitted_at}:null;}).filter(Boolean);
  }
- res.json({state:s,current,player,submitted,leaderboard,revealed_details,challenge_count:challenges.length});
+ const crisisSubmitted=req.user.role==='player'?(await pool.query('SELECT id FROM crisis_submissions WHERE player_id=$1 AND challenge_index=$2',[req.user.id,s.current_challenge])).rowCount>0:false;
+ res.json({state:s,current,player,submitted,crisisSubmitted,leaderboard,revealed_details,challenge_count:challenges.length});
 });
 app.get('/api/host/pending',auth,host,async(req,res)=>{
  const q=await pool.query('SELECT id,name,created_at FROM players WHERE approved=false ORDER BY created_at');
@@ -181,24 +198,27 @@ app.get('/api/host/dashboard',auth,host,async(req,res)=>{
   const quality=net>150000000?'Excellent':net>60000000?'Good':net>=0?'Acceptable':'Major Mistake';
   return {name:sub.name,option_key:opt.key,decision_data:dec,strategy:st.label,operations:op.label,protection:pr.label,cost:totalCost,revenue,net,quality,xp_delta:XP[quality],crown_delta:CROWN[quality],balance_before:pl.balance,balance_after};
  }).filter(Boolean) : [];
- res.json({state:s,players,pending:players.filter(p=>!p.approved),submissions:subs,results,preview,current:challenges[s.current_challenge]||null,challenge_count:challenges.length,challenge_list:challenges.map(c=>({set_number:c.set_number,set_name:c.set_name,challenge_number:c.challenge_number,title:c.title}))});
+ const crisisSubs=(await pool.query('SELECT p.name,cs.mode,cs.submitted_at FROM crisis_submissions cs JOIN players p ON p.id=cs.player_id WHERE cs.challenge_index=$1 ORDER BY p.name',[s.current_challenge])).rows;
+ const crisisResults=(await pool.query('SELECT p.name,cr.success,cr.purchase_cost,cr.treasury_delta,cr.xp_delta,cr.crown_delta,cr.balance_after,cr.assets_used,cr.assets_purchased FROM crisis_results cr JOIN players p ON p.id=cr.player_id WHERE cr.challenge_index=$1 ORDER BY p.name',[s.current_challenge])).rows;
+ res.json({state:s,players,pending:players.filter(p=>!p.approved),submissions:subs,results,preview,crisisSubs,crisisResults,current:challenges[s.current_challenge]||null,challenge_count:challenges.length,challenge_list:challenges.map(c=>({set_number:c.set_number,set_name:c.set_name,challenge_number:c.challenge_number,title:c.title}))});
 });
 app.post('/api/host/start',auth,host,async(req,res)=>{
  const setNo=Number(req.body.set_number||1); if(setNo<1||setNo>10)return res.status(400).json({error:'Set must be 1–10.'});
  const idx=challenges.findIndex(c=>c.set_number===setNo&&c.challenge_number===1); if(idx<0)return res.status(400).json({error:'Set not found.'});
- const ev=marketFor(idx); await pool.query("UPDATE game_state SET current_challenge=$1,current_set=$2,set_started=true,status='active',submissions_locked=false,revealed=false,results_approved=false,market_event=$3 WHERE id=1",[idx,setNo,JSON.stringify(ev)]);
+ const ev=marketFor(idx); await pool.query("UPDATE game_state SET current_challenge=$1,current_set=$2,set_started=true,status='active',submissions_locked=false,revealed=false,results_approved=false,market_event=$3,current_crisis='{}'::jsonb,crisis_active=false,crisis_approved=false WHERE id=1",[idx,setNo,JSON.stringify(ev)]);
  res.json({ok:true,message:`Set ${setNo} started. Level 1 is open for all players.`});
 });
 app.post('/api/host/next-level',auth,host,async(req,res)=>{
  const s=await state(); if(!s.set_started||!s.results_approved)return res.status(400).json({error:'Approve the current level before advancing.'});
  const c=challenges[s.current_challenge]; if(c.challenge_number>=10)return res.status(400).json({error:'This set is complete. Select the next set and click START SET.'});
- const idx=s.current_challenge+1,ev=marketFor(idx); await pool.query("UPDATE game_state SET current_challenge=$1,submissions_locked=false,revealed=false,results_approved=false,market_event=$2 WHERE id=1",[idx,JSON.stringify(ev)]);res.json({ok:true,message:`Level ${c.challenge_number+1} opened for all players.`});
+ if(crisisDue(c)&&!s.crisis_approved)return res.status(409).json({crisisRequired:true,error:'Royal Crisis required after this level. Activate or skip the crisis before advancing.'});
+ const idx=s.current_challenge+1,ev=marketFor(idx); await pool.query("UPDATE game_state SET current_challenge=$1,submissions_locked=false,revealed=false,results_approved=false,market_event=$2,current_crisis='{}'::jsonb,crisis_active=false,crisis_approved=false WHERE id=1",[idx,JSON.stringify(ev)]);res.json({ok:true,message:`Level ${c.challenge_number+1} opened for all players.`});
 });
 app.post('/api/host/open/:index',auth,host,async(req,res)=>{
  const i=Number(req.params.index); if(!Number.isInteger(i)||i<0||i>=challenges.length) return res.status(400).json({error:'Invalid challenge index.'});
  const s=await state();
  if(s.current_challenge!==i && s.current_challenge>=0 && s.status==='active' && !s.results_approved) return res.status(409).json({error:'Approve the current challenge results before moving on.'});
- const ev=marketFor(i); await pool.query("UPDATE game_state SET current_challenge=$1,current_set=$2,set_started=true,status='active',submissions_locked=false,revealed=false,results_approved=false,market_event=$3 WHERE id=1",[i,challenges[i].set_number,JSON.stringify(ev)]);
+ const ev=marketFor(i); await pool.query("UPDATE game_state SET current_challenge=$1,current_set=$2,set_started=true,status='active',submissions_locked=false,revealed=false,results_approved=false,market_event=$3,current_crisis='{}'::jsonb,crisis_active=false,crisis_approved=false WHERE id=1",[i,challenges[i].set_number,JSON.stringify(ev)]);
  res.json({ok:true});
 });
 app.post('/api/host/lock',auth,host,async(req,res)=>{
@@ -252,14 +272,14 @@ app.post('/api/host/reset',auth,host,async(req,res)=>{
  try{
   await client.query('BEGIN');
   // Clear player-related records and reset generated IDs atomically.
-  await client.query('TRUNCATE TABLE results, submissions, intelligence_purchases, players RESTART IDENTITY');
+  await client.query('TRUNCATE TABLE crisis_results, crisis_submissions, results, submissions, intelligence_purchases, players RESTART IDENTITY');
   // Return the entire game to its original registration stage.
   await client.query(`
     INSERT INTO game_state(id,current_challenge,status,submissions_locked,revealed,results_approved,game_night,updated_at)
     VALUES(1,0,'registration',false,false,false,1,NOW())
     ON CONFLICT(id) DO UPDATE SET
       current_challenge=0,
-      current_set=1,set_started=false,market_event='{}'::jsonb,
+      current_set=1,set_started=false,market_event='{}'::jsonb,current_crisis='{}'::jsonb,crisis_active=false,crisis_approved=false,
       status='registration',
       submissions_locked=false,
       revealed=false,
@@ -274,6 +294,56 @@ app.post('/api/host/reset',auth,host,async(req,res)=>{
   console.error('FULL GAME RESET FAILED:',e);
   res.status(500).json({error:'Full reset failed. Check the Render logs for the reset error.'});
  }finally{client.release();}
+});
+
+// Host may manifest a prepared crisis after Level 3, 6, or 9, or explicitly skip it.
+app.get('/api/host/crisis-templates',auth,host,async(req,res)=>res.json({templates:CRISIS_TEMPLATES}));
+app.post('/api/host/crisis/activate',auth,host,async(req,res)=>{
+ const s=await state(),c=challenges[s.current_challenge];
+ if(!s.results_approved||!crisisDue(c))return res.status(400).json({error:'Crisis can only be activated after an approved Level 3, 6, or 9.'});
+ if(s.crisis_active||s.crisis_approved)return res.status(409).json({error:'A crisis is already active or resolved for this checkpoint.'});
+ const t=crisisTemplate(String(req.body.template_id||''));if(!t)return res.status(400).json({error:'Choose a valid crisis template.'});
+ const custom={...t,title:String(req.body.title||t.name).trim().slice(0,120),description:String(req.body.description||t.description).trim().slice(0,1200),requirements:{...t.requirements},unit_prices:{...t.unit_prices}};
+ for(const k of Object.keys(ASSET_LABELS)){if(req.body.requirements?.[k]!==undefined){const n=Number(req.body.requirements[k]);if(!Number.isFinite(n)||n<0||n>10000)return res.status(400).json({error:'Crisis asset requirements must be 0–10,000.'});custom.requirements[k]=Math.floor(n);}if(req.body.unit_prices?.[k]!==undefined){const n=Number(req.body.unit_prices[k]);if(!Number.isFinite(n)||n<0||n>1000000000)return res.status(400).json({error:'Asset unit prices must be between 0 and ₦1 billion.'});custom.unit_prices[k]=Math.floor(n);}}
+ await pool.query('UPDATE game_state SET current_crisis=$1,crisis_active=true,crisis_approved=false WHERE id=1',[JSON.stringify(custom)]);res.json({ok:true,message:`${custom.title} is now visible to all players.`});
+});
+app.post('/api/host/crisis/skip',auth,host,async(req,res)=>{
+ const s=await state(),c=challenges[s.current_challenge];if(!s.results_approved||!crisisDue(c))return res.status(400).json({error:'There is no due crisis to skip.'});
+ await pool.query("UPDATE game_state SET crisis_active=false,crisis_approved=true,current_crisis='{}'::jsonb WHERE id=1");res.json({ok:true,message:'Crisis skipped. Host may advance to the next level.'});
+});
+app.post('/api/crisis/submit',auth,async(req,res)=>{
+ if(req.user.role!=='player')return res.status(403).json({error:'Player account required.'});const s=await state(),p=await playerSafe(req.user.id),cr=s.current_crisis||{};
+ if(!p?.approved||p.eliminated)return res.status(403).json({error:'Only active approved players may respond.'});
+ if(!s.crisis_active||s.crisis_approved||!s.results_approved)return res.status(400).json({error:'No active Royal Crisis is accepting responses.'});
+ const mode=String(req.body.mode||'');if(!['purchase_missing','assets_only'].includes(mode))return res.status(400).json({error:'Choose whether to purchase missing resources or use existing assets only.'});
+ const existing=await pool.query('SELECT id FROM crisis_submissions WHERE player_id=$1 AND challenge_index=$2',[req.user.id,s.current_challenge]);if(existing.rowCount)return res.status(409).json({error:'You already submitted your crisis response.'});
+ const cost=Number(cr.treasury_fee||0);if(mode==='purchase_missing'){
+  const ks=p.kingdom_state||{};let purchase=0;for(const [k,need] of Object.entries(cr.requirements||{})){const shortage=Math.max(0,Number(need)-Number(ks[k]||0));purchase+=shortage*Number(cr.unit_prices?.[k]||0);}
+  if(Number(p.balance)<cost+purchase)return res.status(400).json({error:`Your treasury needs ${fmt(cost+purchase)} to pay the crisis fee and purchase missing resources.`});
+ }
+ await pool.query('INSERT INTO crisis_submissions(player_id,challenge_index,crisis_id,mode) VALUES($1,$2,$3,$4)',[req.user.id,s.current_challenge,cr.id,mode]);res.json({ok:true,message:'Your crisis response is submitted privately.'});
+});
+app.post('/api/host/crisis/approve',auth,host,async(req,res)=>{
+ const s=await state(),cr=s.current_crisis||{};if(!s.crisis_active||s.crisis_approved)return res.status(400).json({error:'No unresolved crisis is active.'});
+ const subs=(await pool.query('SELECT * FROM crisis_submissions WHERE challenge_index=$1',[s.current_challenge])).rows,client=await pool.connect();
+ try{await client.query('BEGIN');for(const sub of subs){const prior=await client.query('SELECT id FROM crisis_results WHERE player_id=$1 AND challenge_index=$2',[sub.player_id,s.current_challenge]);if(prior.rowCount)continue;
+  const p=(await client.query('SELECT * FROM players WHERE id=$1 FOR UPDATE',[sub.player_id])).rows[0];if(!p||p.eliminated)continue;
+  const assets={...(p.kingdom_state||{})},used={},purchased={};let purchaseCost=0,success=true;
+  for(const [k,needRaw] of Object.entries(cr.requirements||{})){const need=Number(needRaw||0),available=Number(assets[k]||0),use=Math.min(available,need);used[k]=use;let shortage=need-use;
+   if(shortage>0&&sub.mode==='purchase_missing'){const unit=Number(cr.unit_prices?.[k]||0);purchaseCost+=shortage*unit;purchased[k]=shortage;}
+   else if(shortage>0)success=false;
+  }
+  const totalPay=purchaseCost+Number(cr.treasury_fee||0);if(Number(p.balance)<totalPay){success=false;purchaseCost=0;for(const k of Object.keys(purchased))purchased[k]=0;}
+  // Consume available resources committed to this crisis. Purchased units satisfy shortage but are not retained.
+  for(const [k,v] of Object.entries(used))assets[k]=Math.max(0,Number(assets[k]||0)-v);
+  const treasuryDelta=success?Number(cr.success_reward||0)-totalPay:-Number(cr.failure_loss||0)-Math.min(Number(p.balance),Number(cr.treasury_fee||0));
+  const balanceAfter=Math.max(0,Number(p.balance)+treasuryDelta);const xp=success?Number(cr.xp_reward||0):Number(cr.failure_xp||0),crown=success?Number(cr.crown_reward||0):Number(cr.failure_crown||0);
+  if(!success)for(const [k,v] of Object.entries(cr.asset_damage||{}))assets[k]=Math.max(0,Number(assets[k]||0)-Number(v||0));
+  await client.query('INSERT INTO crisis_results(player_id,challenge_index,crisis_id,success,assets_used,assets_purchased,purchase_cost,treasury_delta,xp_delta,crown_delta,balance_after) VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)',[p.id,s.current_challenge,cr.id,success,JSON.stringify(used),JSON.stringify(purchased),purchaseCost,treasuryDelta,xp,crown,balanceAfter]);
+  await client.query('UPDATE players SET balance=$1,xp=xp+$2,crown_points=crown_points+$3,eliminated=$4,kingdom_state=$5 WHERE id=$6',[balanceAfter,xp,crown,balanceAfter===0,JSON.stringify(assets),p.id]);
+ }
+ await client.query('UPDATE game_state SET crisis_approved=true WHERE id=1');await client.query('COMMIT');res.json({ok:true,message:'Crisis results approved and resource deductions applied.'});
+ }catch(e){await client.query('ROLLBACK');console.error('crisis approval error',e);res.status(500).json({error:'Crisis approval failed.'});}finally{client.release();}
 });
 app.get('/api/leaderboard',auth,async(req,res)=>{
  const q=await pool.query('SELECT name,balance,xp,crown_points,eliminated FROM players WHERE approved=true ORDER BY crown_points DESC,xp DESC,balance DESC');
@@ -317,7 +387,8 @@ app.get('/api/history',auth,async(req,res)=>{
  let q;
  if(req.user.role==='host') q=await pool.query('SELECT p.name,r.* FROM results r JOIN players p ON p.id=r.player_id ORDER BY r.challenge_index,r.created_at');
  else q=await pool.query('SELECT r.* FROM results r WHERE r.player_id=$1 ORDER BY r.challenge_index',[req.user.id]);
- res.json({history:q.rows});
+ const crisisHistory=req.user.role==='host'? (await pool.query('SELECT p.name,cr.* FROM crisis_results cr JOIN players p ON p.id=cr.player_id ORDER BY cr.challenge_index,cr.created_at')).rows : (await pool.query('SELECT * FROM crisis_results WHERE player_id=$1 ORDER BY challenge_index',[req.user.id])).rows;
+ res.json({history:q.rows,crisis_history:crisisHistory});
 });
 app.get('*',(req,res)=>res.sendFile(path.join(__dirname,'public','index.html')));
 init().then(()=>app.listen(PORT,()=>console.log('KINGMAKERS ARENA listening on '+PORT))).catch(e=>{console.error('DB init failed',e);process.exit(1);});
