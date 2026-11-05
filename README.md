@@ -35,3 +35,10 @@ A strategic upgrade for the existing KINGMAKERS ARENA multiplayer app (Node.js +
 - `node --check server.js` and browser-script syntax checks pass for the delivered files.
 - A live PostgreSQL/Render integration test was not run in this build environment. Please deploy to a staging copy first if possible, then test with a few test accounts before your real game night.
 - Do not commit secrets or database URLs to GitHub.
+
+## Player choice + host set selection fix (November 2026)
+- Player form selections (core decision, policy, operations, protection) now persist through the automatic 3.5-second refresh instead of resetting to the first dropdown option.
+- Intelligence purchase clue/cost state is preserved during refresh.
+- The core decision options are displayed directly under Phase 1 at the top of the decision form.
+- Host set selection no longer gets overwritten by the live dashboard refresh. Selecting Set 2–10 and clicking START SET keeps that set selected and starts it.
+- Selections are reset for a new level rather than carrying choices across levels.
