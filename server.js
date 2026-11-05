@@ -186,8 +186,7 @@ app.post('/api/host/next-night',auth,host,async(req,res)=>{
  await pool.query('UPDATE game_state SET game_night=game_night+1,status=CASE WHEN current_challenge>=99 THEN status ELSE \'active\' END WHERE id=1');res.json({ok:true});
 });
 app.post('/api/host/reset',auth,host,async(req,res)=>{
- const confirm=String(req.body.confirm||'').trim();
- if(confirm!=='RESET KINGDOM') return res.status(400).json({error:'Confirmation did not match. Type RESET KINGDOM exactly.'});
+ // Host button intentionally performs the reset immediately without a confirmation prompt.
  const client=await pool.connect();
  try{
   await client.query('BEGIN');
